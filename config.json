@@ -1,0 +1,22 @@
+{
+    "feature_names": [
+        "daily_quantity",
+        "day_of_week",
+        "month",
+        "lag_7",
+        "rolling_mean_7",
+        "is_weekend"
+    ],
+    "time_steps": 60,
+    "train_shape": [
+        38580,
+        60,
+        6
+    ],
+    "test_shape": [
+        5144,
+        60,
+        6
+    ],
+    "target": "daily_quantity"
+}
